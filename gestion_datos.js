@@ -14,7 +14,7 @@ console.log("Set of unique products:", setProducts);
 const mapProducts = new Map([  
     ["Electronics", "Laptop"],  
     ["Telephony", "Celular"],  
-    ["Tablets", "Tablet"]  
+    ["Tablets", "Tablet"]
 ]);  
 console.log("Map of products by category:", mapProducts);  
 
@@ -45,9 +45,7 @@ console.table(Array.from(mapProducts.entries()).map(([category, product]) => ({ 
 function renderTable(headers, rows) {  
     let thead = `<thead><tr>${headers.map(head => `<th>${head}</th>`).join('')}</tr></thead>`;  
     let tbody = `<tbody>${rows.map(row =>  
-        `<tr>${headers.map(head => `<td>${row[head]}</td>`).join('')}</tr>`  
-    ).join('')}</tbody>`;  
-    console.log(headers,)  
+        `<tr>${headers.map(head => `<td>${row[head]}</td>`).join('')}</tr>`).join('')}</tbody>`;  
     return `<table>${thead}${tbody}</table>`;  
 }  
 
@@ -55,7 +53,7 @@ function renderTable(headers, rows) {
 const productsArray = Object.values(products);  
 document.getElementById('tabla-objeto').innerHTML = renderTable(  
     ['id', 'name', 'price'],  
-    productsArray  
+    productsArray 
 );  
 
 // Unique products table (Set)  
