@@ -41,7 +41,7 @@ console.table(Array.from(setProducts.entries()).map(([product]) => ({ product })
 console.log("Product categories (Map): ");  
 console.table(Array.from(mapProducts.entries()).map(([category, product]) => ({ category, product })));  
   
-// Function to create an HTML table from an array of objects  
+//Function to create an HTML table from an array of objects  
 function renderTable(headers, rows) {  
     let thead = `<thead><tr>${headers.map(head => `<th>${head}</th>`).join('')}</tr></thead>`;  
     let tbody = `<tbody>${rows.map(row =>  
