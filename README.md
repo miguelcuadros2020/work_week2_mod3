@@ -40,9 +40,9 @@ Este proyecto muestra cómo gestionar y visualizar productos usando JavaScript m
 2. Abre el archivo `index.html` en tu navegador.
 3. Verás tres tablas: productos, productos únicos y categorías.
 
-## Vista previa
+## Vista
 
-![Vista previa de las tablas de productos](preview.png) <!-- Puedes agregar una captura de pantalla aquí si lo deseas -->
+https://miguelcuadros2020.github.io/work_week2_mod3/
 
 ---
 
